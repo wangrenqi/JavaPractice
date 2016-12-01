@@ -1,4 +1,4 @@
-package CallbackTest;
+package CallbackTest.Demo1;
 
 public class Main {
 
@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Hello World!");
         A a = new A();
         a.setCallbackListener(new B());
-        a.doCallback("CallbackTest.Main String Hello");
+        a.doCallback("CallbackTest.Demo1.Main String Hello");
     }
 
 

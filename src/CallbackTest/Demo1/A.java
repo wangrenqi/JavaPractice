@@ -1,4 +1,4 @@
-package CallbackTest;
+package CallbackTest.Demo1;
 
 /**
  * Created by Mccree on 24/11/2016.
