@@ -1,0 +1,10 @@
+package StrategyModeTest.Demo1;
+
+/**
+ * Created by Mccree on 03/12/2016.
+ */
+public class DowncaseProcessor extends Processor {
+    public String process(Object input) {
+        return ((String) input).toLowerCase();
+    }
+}
